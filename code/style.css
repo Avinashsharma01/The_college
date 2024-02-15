@@ -25,7 +25,6 @@ nav {
   align-items: center;
   box-shadow: 0px 1px 20px rgb(26, 44, 49);
 }
-
 nav,
 ul {
   display: flex;
@@ -52,7 +51,7 @@ a:hover {
   font-family: "Roboto", sans-serif;
   width: 90%;
   height: auto;
-  min-height: 100vh;
+  min-height: 95vh;
   margin-left: 5%;
   padding: 20px;
   background-color: rgb(23, 74, 84);
@@ -60,6 +59,7 @@ a:hover {
   justify-content: space-around;
   flex-wrap: wrap;
   align-content: center;
+  margin-top: -25px;
 }
 
 .page {
@@ -67,12 +67,30 @@ a:hover {
   margin-bottom: 60px;
   width: 300px;
   height: 250px;
-  background-color: gray;
+  background-color: rgb(28, 36, 36);
   border-radius: 20px;
   padding: 20px;
-  color: #214d8e;
+  color: white;
 }
 
+.heading {
+  font-family: "Ubuntu", sans-serif;
+  width: 100vw;
+  height: 50px;
+  background-color: gray;
+  border-radius: 20px;
+  color: #214d8e;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.heading,
+h1 {
+  font-size: 20px;
+  margin-top: 12px;
+}
+.headinfo {
+  color: white;
+}
 .sem1,
 .sem2,
 .sem3,
@@ -95,7 +113,7 @@ a:hover {
 .sem6:hover,
 .sem7:hover,
 .sem8:hover {
-  color: white;
+  color: rgb(82, 81, 81);
 }
 
 .material-symbols-outlined {
