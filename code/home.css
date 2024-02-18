@@ -25,6 +25,8 @@ nav {
 }
 a:hover{
     border-bottom: 2px solid rgb(210, 14, 210);
+    border-top: 2px solid rgb(210, 14, 210);
+    
 }
 nav,
 ul {

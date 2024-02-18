@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #a9a3a3;
+  background-color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
 #head {
@@ -45,6 +45,7 @@ a {
 }
 a:hover {
   border-bottom: 2px solid rgb(210, 14, 210);
+  border-top: 2px solid rgb(210, 14, 210);
 }
 
 .menubar i{
@@ -88,7 +89,7 @@ a:hover {
   color: #214d8e;
   margin-bottom: 20px;
   text-align: center;
- 
+  
 }
 .heading,
 h1 {
@@ -156,6 +157,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 1px 20px rgb(26, 44, 49);
 }
 
 
