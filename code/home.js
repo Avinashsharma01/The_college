@@ -2,6 +2,7 @@
 let nav=document.querySelector('ul')
 let open=document.querySelector('#open')
 let close=document.querySelector('#close')
+let body=document.querySelector('body')
 
 function clickon(){
     nav.style.display='block'
@@ -14,4 +15,3 @@ function clickoff(){
     close.style.display='none'
     open.style.display='block'
 }
-

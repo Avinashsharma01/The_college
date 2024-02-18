@@ -18,7 +18,7 @@ body {
 }
 nav {
   width: 100%;
-  height: 80px;
+  height:60px;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
@@ -28,6 +28,7 @@ nav {
 nav,
 ul {
   display: flex;
+  
 }
 nav,
 ul,
@@ -46,13 +47,18 @@ a:hover {
   border-bottom: 2px solid rgb(210, 14, 210);
 }
 
+.menubar i{
+  font-size: 25px;
+}
+
+
 /* Main Page css start from here */
 #main_page {
   font-family: "Roboto", sans-serif;
-  width: 90%;
+  width: 90vw;
   height: auto;
-  min-height: 95vh;
-  margin-left: 5%;
+  min-height: 96vh;
+  margin-left: 4.5vw;
   padding: 20px;
   background-color: rgb(23, 74, 84);
   display: flex;
@@ -82,10 +88,11 @@ a:hover {
   color: #214d8e;
   margin-bottom: 20px;
   text-align: center;
+ 
 }
 .heading,
 h1 {
-  font-size: 20px;
+  font-size: 1.2rem;
   margin-top: 12px;
 }
 .headinfo {
@@ -142,7 +149,7 @@ h1 {
 
 #foot {
   width: 100%;
-  height: 70px;
+  height:60px;
   background-color: white;
   position: sticky;
   bottom: 100;
@@ -150,3 +157,39 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+
+
+
+
+/* Design for desktop displays from 1280×720 through 1920×1080. Design for mobile displays from 360×640 through 414×896. */
+
+
+
+/* With min-width, styles START and continue forever as long as min-width is met, and no max-width is specified. Max-width is the maximum width at which a style will continue to be applied. After that, the style will STOP being applied. (Have to be ordered from largest to smallest to work properly, regular styles first). */
+
+
+
+
+ @media only screen and (max-width:700px){
+  ul{
+    display: none;
+  }
+  ul{
+    background-color: gray;
+    margin-top: 336px;
+    width: 100vw;
+    text-align: center;
+    position: absolute;
+    left: 0;
+   }
+
+  #close{
+    display: none;
+  }
+}
+@media only screen and (min-width:700px){
+ .menubar{
+  display: none;
+ }
+}
+ 
