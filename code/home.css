@@ -39,11 +39,11 @@ li {
 nav,
 ul,
 li,
-a {
+.A{
   text-decoration: none;
   text-transform: uppercase;
 }
-a:hover {
+.A:hover {
   border-bottom: 2px solid rgb(210, 14, 210);
   border-top: 2px solid rgb(210, 14, 210);
 }
@@ -51,6 +51,8 @@ a:hover {
 .menubar i{
   font-size: 25px;
 }
+
+
 
 
 /* Main Page css start from here */
@@ -97,7 +99,7 @@ h1 {
   margin-top: 12px;
 }
 .headinfo {
-  color: white;
+  color: lime;
 }
 .sem1,
 .sem2,
@@ -145,6 +147,14 @@ h1 {
   border: 1px solid red;
   font-size: 5px;
 }
+
+#sem_btn{
+  font-size: 15px;
+
+}
+
+
+
 
 /* Footer css start frome here */
 
