@@ -85,7 +85,7 @@ li,
 #left {
   width: calc(100% - 80%);
   height: 100vh;
-  background-color: #3e6ded;
+  background-color: #186a70;
   position: fixed;
 }
 
@@ -93,11 +93,12 @@ li,
 #right {
   width: calc(100% - 20%);
   height: auto;
-  background-color: #163e1e;
+  background-color: #1d79a7;
   margin-left: 20%;
 }
 
 .right_meterial{
+  color: #fff;
   width: 100%;
   min-height: 100vh;
   height: auto;
@@ -112,7 +113,7 @@ li,
 /* Side left code start from here */
 
 .subject {
-  background-color: #817878;
+  background-color: #34b39d;
   padding: 10px;
   text-align: center;
 }
@@ -300,6 +301,12 @@ li,
   background-color: #fff;
   font-size: 21px;
 }
+
+.subjecthover{
+  border-radius: 30px;
+}
+
+
 /* Side right code bass start from here */
 /* Side right code bass start from here */
 /* Side right code bass start from here */
@@ -310,7 +317,8 @@ li,
 
 .semdetails {
   text-align: center;
-  background-color: aqua;
+  background-color: rgb(40, 48, 48);
+  color: #fff;
   position: sticky;
   top: 60px;
 }
